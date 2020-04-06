@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class CustomTextField extends StatelessWidget {
   CustomTextField(
       {this.hint, this.password = false, this.validator, this.onSaved});
@@ -9,7 +8,7 @@ class CustomTextField extends StatelessWidget {
   final bool password;
   final FormFieldValidator<String> validator;
   final FormFieldSetter<String> onSaved;
-  
+
   @override
   Widget build(BuildContext context) {
     return Container(
