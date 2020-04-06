@@ -8,6 +8,8 @@ class SignupPage extends StatefulWidget {
   State<StatefulWidget> createState() => new _SignupPage();
 }
 
+// Idea: Make two buttons: one has register as student, the other register as tutor
+
 class _SignupPage extends State<SignupPage> {
 
   final formKey = new GlobalKey<FormState>();
